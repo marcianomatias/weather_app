@@ -1,0 +1,115 @@
+
+body {
+
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container h1 {
+    text-shadow: 3px 5px 2px #4747477e, 2px 2px 2px rgba(206,89,55,0);
+    color: #007bff;
+    background: #FFFFFF;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0,.2);
+    border-radius: 5px;
+    margin: 50px 0 500px 500px;
+    text-align: center;
+    max-width: 600px;
+    /*margin:  auto;*/
+    padding: 20px;
+    align-self: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 60%;
+}
+
+form input[value="Get Weather"] {
+    text-shadow: #474747 3px 5px 2px, 2px 2px 14px rgba(206,89,55,0);
+    font-weight: bold;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    -webkit-box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+i {
+    padding: 15px;
+    display: inline;
+    -webkit-text-fill-color: #bdbdbd;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.temperature {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.description {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.details > div {
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    flex: 1;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 45px;
+    box-shadow: rgba(37, 36, 35, 0.527) 3px 5px 2px, 2px 2px 14px rgba(206,89,55,0);
+}
+
+@media(max-width: 768px) {
+    form {
+        flex-direction: column;
+    }
+    form input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
