@@ -51,4 +51,8 @@ Este projeto está licenciado sob a [MIT License](LICENSE). Sinta-se à vontade 
 - [GitHub](https://github.com/) por fornecer uma plataforma incrível para compartilhar projetos e colaborar com a comunidade.
 
 Espero que este aplicativo seja útil para você! Caso tenha alguma dúvida, fique à vontade para entrar em contato.
+
+## Imagens do Projeto
 ![image](https://github.com/marcianomatias/weather_app/assets/10820742/9a25c73c-f045-4b42-b147-4b85fd91feac)
+![image](https://github.com/marcianomatias/weather_app/assets/10820742/4dc49150-13eb-4330-9022-9f74da83c93c)
+
