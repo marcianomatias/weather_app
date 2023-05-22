@@ -37,6 +37,10 @@ const apiKey = 'SUA_CHAVE_DE_API';
 
 Certifique-se de não compartilhar sua chave de API publicamente. Recomenda-se manter a chave de API em um arquivo de configuração separado ou usar variáveis de ambiente para proteger suas informações confidenciais.
 
+## Autor
+
+Este aplicativo foi desenvolvido por Marciano Matias. Você pode entrar em contato comigo pelo meu [GitHub](https://github.com/marcianomatias) para obter mais informações.
+
 ## Contribuição
 
 Contribuições são bem-vindas! Se você encontrar algum problema, bug ou tiver sugestões de melhoria, sinta-se à vontade para abrir uma issue neste repositório.
